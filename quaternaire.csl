@@ -316,9 +316,11 @@
             <group prefix=" ">
               <text macro="journal-title" suffix=", "/>
             </group>
-            <group delimiter=", " suffix=".">
+            <group suffix=", ">
               <text variable="volume" form="short" font-weight="bold"/>
               <text variable="issue" prefix=" (" form="short" suffix=")"/>
+	          </group>
+		        <group delimiter=", " suffix=". ">
               <text variable="page"/>
               <text macro="access"/>
             </group>
